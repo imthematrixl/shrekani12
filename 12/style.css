@@ -1,0 +1,10 @@
+img{
+   width: 700px;
+   height: 700px;
+   animation-name: slideToRight;
+   animation-duration: 1s;
+}
+
+@keyframes slideToRight{
+    from{transform: translateX(700px);}
+}
